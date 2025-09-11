@@ -46,7 +46,7 @@ By applying machine learning, we aim to explore which factors (e.g., smoking, al
 ## Team Members
 - Alanoud Alhudhaif 445200325 
 - Maraheb Alrashedi 445200056
-- Aleen 445200450
+- Aleen Aldosari 445200450
 - Shatha 445203021
 
 ## Phase 1 Deliverables
