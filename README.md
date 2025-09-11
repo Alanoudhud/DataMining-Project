@@ -19,11 +19,35 @@ By applying machine learning, we aim to explore which factors (e.g., smoking, al
 - *Format:* CSV file with more than 500 rows and at least 10 columns, meeting the project requirements.  
 - *Target Attribute:* LUNG_CANCER (Yes/No).
 
+## Dataset Description
+- Number of rows: 50,000  
+- Number of columns: 11  
+
+### Attributes Information:
+- *patient_id*: Unique identifier for each patient.  
+- *age*: Age of the patient (in years).  
+- *gender*: Gender of the patient (Male/Female).  
+- *pack_years*: Number of pack-years (measure of smoking exposure).  
+- *radon_exposure*: Exposure level to radon gas (Low/Medium/High).  
+- *asbestos_exposure*: Whether the patient was exposed to asbestos (Yes/No).  
+- *secondhand_smoke_exposure*: Exposure to secondhand smoke (Yes/No).  
+- *copd_diagnosis*: Whether the patient has Chronic Obstructive Pulmonary Disease (Yes/No).  
+- *alcohol_consumption*: Alcohol consumption status (Yes/No).  
+- *family_history*: Family history of lung cancer (Yes/No).  
+- *lung_cancer*: Target variable (Yes/No) indicating if the patient has lung cancer.  
+
+### Target Attribute (Class Label):
+- *lung_cancer* (Yes/No)  
+
+### Class Distribution:
+- Yes = 34,364  
+- No = 15,636
+
 ## Team Members
--  (Group Leader)  
-- [Maraheb Alrashedi]  
-- []  
-- []  
+- Alanoud Alhudhaif 445200325 
+- Maraheb Alrashedi 445200056
+- Aleen 445200450
+- Shatha 445203021
 
 ## Phase 1 Deliverables
 - Dataset uploaded in Dataset/Raw_dataset.csv  
