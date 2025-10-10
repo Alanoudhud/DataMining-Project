@@ -23,18 +23,24 @@ By applying machine learning, we aim to explore which factors (e.g., smoking, al
 - Number of rows: 50,000  
 - Number of columns: 11  
 
+### Dataset Description
+
+- **Number of rows:** 50,000  
+- **Number of columns:** 11  
+
 ### Attributes Information:
-- *patient_id*: Unique identifier for each patient.  
-- *age*: Age of the patient (in years).  
-- *gender*: Gender of the patient (Male/Female).  
-- *pack_years*: Number of pack-years (measure of smoking exposure).  
-- *radon_exposure*: Exposure level to radon gas (Low/Medium/High).  
-- *asbestos_exposure*: Whether the patient was exposed to asbestos (Yes/No).  
-- *secondhand_smoke_exposure*: Exposure to secondhand smoke (Yes/No).  
-- *copd_diagnosis*: Whether the patient has Chronic Obstructive Pulmonary Disease (Yes/No).  
-- *alcohol_consumption*: Alcohol consumption status (Yes/No).  
-- *family_history*: Family history of lung cancer (Yes/No).  
-- *lung_cancer*: Target variable (Yes/No) indicating if the patient has lung cancer.  
+
+- **patient_id:** Unique identifier for each patient.  
+- **age:** Age of the patient (in years).  
+- **gender:** Gender of the patient (Male/Female).  
+- **pack_years:** Numerical measure of smoking exposure (ranges approximately from 0 to 100).  
+- **radon_exposure:** Exposure level to radon gas (Low / Medium / High).  
+- **asbestos_exposure:** Whether the patient was exposed to asbestos (Yes / No).  
+- **secondhand_smoke_exposure:** Exposure to secondhand smoke (Yes / No).  
+- **copd_diagnosis:** Whether the patient has Chronic Obstructive Pulmonary Disease (Yes / No).  
+- **alcohol_consumption:** Alcohol consumption level (None / Moderate / Heavy).  
+- **family_history:** Family history of lung cancer (Yes / No).  
+- **lung_cancer:** Target variable indicating if the patient has lung cancer (Yes / No).  
 
 ### Target Attribute (Class Label):
 - *lung_cancer* (Yes/No)  
